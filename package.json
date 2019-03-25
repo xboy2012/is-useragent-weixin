@@ -1,10 +1,17 @@
 {
   "name": "is-useragent-weixin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Checks if useragent is weixin browser",
   "main": "commonjs/es5/index.js",
   "module": "module/es7/index.js",
   "jsnext:main": "module/es7/index.js",
+  "keywords": [
+    "weixin",
+    "wx",
+    "useragent",
+    "is",
+    "browser"
+  ],
   "scripts": {
     "build": "babel-node src/build/index.js",
     "prepublish": "npm run build"
