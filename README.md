@@ -12,11 +12,13 @@ npm i is-useragent-weixin
 ```javascript
 import isUserAgentWeixin from 'is-useragent-weixin'
 
+// get UA string from navigator or somewhere else
+const ua = navigator.userAgent
 
-const ua = navigator.userAgent // get UA string from navigator or somewhere else
-
+// invoke the method
 const isWeixin = isUserAgentWeixin(ua)
 
-console.log(isWeixin)  // outputs whether the browser is weixin
+// outputs whether the browser is weixin
+console.log(isWeixin)
 
 ```
